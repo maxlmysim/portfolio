@@ -678,7 +678,7 @@ input[type='range']::-webkit-slider-thumb {
 .contact_container {
     max-width: 450px;
     position: relative;
-    left: 970px;
+    left: 965px;
 }
 
 .section-title-contact {
@@ -803,11 +803,11 @@ input[type='range']::-webkit-slider-thumb {
 
 @media (max-width: 1000px) {
     .container-header {
-        background-position: top -60px center ;
+        background-position: top -60px center;
     }
 
     .nav_list {
-    margin-right: 0;
+        margin-right: 0;
     }
 
     .switchs-lang {
@@ -862,7 +862,7 @@ input[type='range']::-webkit-slider-thumb {
         top: 0;
         right: -620px;
         background-color: var(--color-black);
-        transition: all 0.3s ease-in-out;
+        transition: right 0.3s ease-in-out;
         z-index: 2;
         height: 100%;
         width: 620px;
