@@ -1,6 +1,6 @@
 import i18Obj from './translate.js';
 
-function preloadSummerImages() {
+function preloadImages() {
     ['winter', 'spring', 'summer', 'autumn'].forEach((item) => {
         for (let i = 1; i <= 6; i++) {
             const img = new Image();
@@ -9,7 +9,7 @@ function preloadSummerImages() {
     });
 }
 
-preloadSummerImages();
+preloadImages();
 
 function toggleMenu() {
     hamburger.classList.toggle('open');
@@ -46,7 +46,6 @@ function chooseLang(event) {
         document.querySelectorAll('.switch-lang').forEach((item) => {
             item.classList.remove('active');
         });
-        // event.target.classList.toggle('active');
         changeLang(event.target.textContent);
     }
 }
